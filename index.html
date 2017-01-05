@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title>Snake Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--JQuery Google CDN-->
+<script type="text/javascript" src="jquery.js"></script>
+
+</head>
+<body>
+<div class="container">
+	<div id="Overlay">
+		Your Final Score:<span id="finalScore"></span>
+		<br>
+		<a onClick="window.location.reload()" href="#">Click to Play Again</a>
+
+	</div><!-- end overlay-->
+	<canvas id="myCanvas" width="600" height="450">Sorry, your browser does not support canvas</canvas>
+	
+	
+	<div id="stats">
+	<div id="score"></div>
+	<div id="highScore"></div>
+	<button onClick="resetScore()" id="resetScore">Reset High Score</button>
+	</div>
+	
+</div><!--end of Container-->
+
+
+
+
+<!--Main JS-->
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
